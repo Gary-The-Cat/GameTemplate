@@ -1,0 +1,8 @@
+GeneralGA/bin/
+GeneralGA/obj/
+NeuralNetwork/.vs/
+Simulation/.vs/
+.vs/
+Simulation/obj/
+Simulation/bin/
+packages/
