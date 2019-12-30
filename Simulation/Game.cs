@@ -1,5 +1,4 @@
 ﻿using Game.Screens;
-using Game.Screens;
 using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
@@ -16,14 +15,12 @@ namespace Game
         public Game()
         {
             // Create the main window
-            window = new RenderWindow(new VideoMode(Configuration.Width, Configuration.Height), "Map Maker");
+            window = new RenderWindow(new VideoMode(Configuration.Width, Configuration.Height), "Game");
             window.SetFramerateLimit(60);
 
             // Handle window events
             window.Closed += OnClose;
             window.Resized += OnResize;
-
-            window.SetMouseCursorVisible(true);
 
             screenManager = new ScreenManager(window);
 

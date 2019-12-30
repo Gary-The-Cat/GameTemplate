@@ -9,11 +9,8 @@ namespace Game
 
         // Writes each frame to file (WARNING: Slow)
         public static bool RecordToFile = false;
-
-        // The maximum amount of time each car can be alive (@ 60fps == 2 minutes)
-        public static int MaxRuntime = 7200;
         
-        public static bool IsDebugFrameTime = true;
+        public static bool IsDebugFrameTime = false;
 
         public static float DebugFrameTime = (1 / 60f);
 

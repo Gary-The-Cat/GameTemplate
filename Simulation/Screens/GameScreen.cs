@@ -1,12 +1,8 @@
 ﻿using Game.Example;
-using Game.ExtensionMethods;
 using Game.Interfaces;
-using Game.Screens;
 using SFML.Graphics;
 using SFML.System;
-using SFML.Window;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Game.Screens
 {

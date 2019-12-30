@@ -116,7 +116,7 @@ namespace Game.ViewTools
 
         private float GetAspectRatio()
         {
-            return this.view.Viewport.Width / this.view.Viewport.Height;
+            return Configuration.Width / (float)Configuration.Height;
         }
 
         public View GetView()
